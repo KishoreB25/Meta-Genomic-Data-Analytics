@@ -8,7 +8,7 @@ import os # Import os for better path handling
 MODEL_FILE = 'rf_functional_predictor.joblib'
 
 try:
-    # Check if the model file exists
+    # Check if the model file exist
     if not os.path.exists(MODEL_FILE):
         raise FileNotFoundError(f"Model file '{MODEL_FILE}' not found.")
         
